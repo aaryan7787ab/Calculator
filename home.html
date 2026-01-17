@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="calculator">
+            <!-- heading of the calculator -->
+            <h1 id="heading">Calculator</h1>
+            <div class="container">
+                <input type="text" id="display" class="display" readonly>
+                <div class="arrow">
+                    <button id="allclear" onclick = "clearDisplay()">AC</button>
+                    <button  id = "clear" onclick = "clearDisplay()">X</button>
+                </div>
+                <!-- buttons for the calculator -->
+                <div class="buttons">
+                    <button class = " btns" onclick="appendNumber('7')">7</button>
+                    <button class = " btns" onclick="appendNumber('8')">8</button>
+                    <button class = " btns" onclick="appendNumber('9')">9</button>
+                    <button class = " btns" onclick= "appendOperation('+')">+</button>
+                    <button class = " btns" onclick="appendNumber('4')">4</button>
+                    <button class = " btns" onclick="appendNumber('5')">5</button>
+                    <button class = " btns" onclick="appendNumber('6')">6</button>
+                    <button class = " btns" onclick="appendOperation('-')">-</button>
+                    <button class = " btns" onclick="appendNumber('1')">1</button>
+                    <button class = " btns" onclick="appendNumber('2')">2</button>
+                    <button class = " btns" onclick="appendNumber('3')">3</button>
+                    <button class = " btns" onclick="appendOperation('*')">*</button>
+                    <button class = " btns" onclick="appendNumber('.')">.</button>
+                    <button class = " btns" onclick="appendNumber('0')">0</button>
+                    <button class = " btns" onclick="calculate()">=</button>
+                    <button class = " btns" onclick="appendOperation('/')">/</button>
+                </div>
+            </div>
+            <!-- on and off button for  use the calcualtor  -->
+            <div class="on-btn">
+                <button type="submit" id="btn">On</button>
+
+                <script src="opps.js"></script>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
