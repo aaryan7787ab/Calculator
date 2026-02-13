@@ -1,120 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(233, 236, 239);
-}
-
-/* Heading style */
-
-#heading {
-    font-size: 39px;
-    color: rgb(67, 66, 66);
-    font-family: monospace;
-    margin-bottom: 20px;
-    margin-left: 44%;
-    margin-top: 40px ;
+  width: 100%;
+  background-color: rgb(149, 194, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .calculator {
-    display: felx;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
+  text-align: center;
+  font-size: 45px;
+  color: rgb(24, 24, 25);
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 /* DISPLAY or SCREEN style */
 
 .container {
-    height: 650px;
-    width: 400px;
-    margin-top: 12px;
-    margin-left: 38%;
-    border: 2px solid black;
-    border-radius: 8px;
-    background-color: rgb(33, 37, 41);
+  height: 650px;
+  width: 400px;
+  border: 1.2px solid black;
+  border-radius: 20px;
+  background-color: rgb(102, 163, 224);
 }
 
-#display{
-    height: 150px;
-    width: 100%;
-    background-color: rgb(206, 212, 218);
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    font-size: 40px;
+#display {
+  height: 165px;
+  width: 100%;
+  background-color: rgb(228, 234, 240);
+  font-size: 40px;
+  border-radius: 20px;
 }
 /* all clear and clear style */
 
 .arrow {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    background-color: rgb(73, 80, 87);
-    margin-top: 3px;
-    margin-bottom: 4px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(102, 163, 224);
+  margin-bottom: 4px;
+  border-bottom: 1.5px solid black;
 }
 /* ALL clear style */
 
-#allclear{
-    height:70px;
-    width: 170px;
-    margin-left: 30px;
-    margin-top: 18px;
-    font-size: 34px;
-    border-radius: 8px;
-    border: none;
-    font-family: Times New Roman;
+#allclear {
+  height: 70px;
+  width: 170px;
+  margin-left: 30px;
+  margin-top: 18px;
+  font-size: 34px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+#allclear:hover {
+  color: white;
+  background-color: rgb(181, 199, 206);
 }
 /* CLEAR style */
 #clear {
-    height: 70px;
-    width: 120px;
-    margin-left: 45px;
-    margin-top: 18px;
-    font-size: 34px;
-    border-radius: 8px;
-    border: none;
-    font-family: Times New Roman;
-
+  height: 70px;
+  width: 120px;
+  margin-left: 45px;
+  margin-top: 18px;
+  font-size: 34px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+#clear:hover {
+  color: white;
+  background-color: rgb(181, 199, 206);
 }
 
 /* Numbers and the operations style */
 
 .calculas {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .btns {
-    height: 80px;
-    width: 80px;
-    margin: 4px 4px 4px 6px;
-    border-radius: 6px;
-    border: none;
-    font-size: 20px;
+  height: 80px;
+  width: 80px;
+  margin: 4px 4px 4px 6px;
+  border-radius: 50%;
+  border: 1.2px solid black;
+  font-size: 20px;
 }
-
-/* on button style */
-
-.on-btn {
-    margin-bottom: 60px;
-    margin-left: 45%;
-    margin-top: 40px ;
+.btns:hover {
+  color: white;
+  background-color: rgb(181, 199, 206);
 }
-
 #btn {
-    height: 60px;
-    width: 150px;
-    border-radius: 4px;
-    border: 1.5px soild black;
-    font-size: 39px;
-    color: rgb(12, 0, 0);
-    font-family: monospace;
+  height: 70px;
+  width: 120px;
+  margin-left: 45px;
+  margin-top: 18px;
+  font-size: 34px;
+  border-radius: 50px;
+  border: 1px solid black;
+  visibility: hidden;
+}
+#btn:hover {
+  color: white;
+  background-color: rgb(181, 199, 206);
 }
